@@ -69,7 +69,8 @@ The data type of the short frame header (collected in AMS lite, so the content l
 | 0x07  | Read the NFC information                      |
 | 0x20  | Printer heartbeat packet                      |
 
-<br>
+
+
 ## Research team:
 - 4061N
 - leonllrmc
