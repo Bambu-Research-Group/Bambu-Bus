@@ -2,15 +2,15 @@
 Tools &amp; Documentation relating to the Bambu Bus
 
 ## Introduction
-The bambu-bus is a propriatary protocol, based on UART trough a RS485 bus
+The bambu-bus is a proprietary protocol, based on UART trough a RS485 bus<br>
 The UART is clocked at 1228800bps with 1 even parity bit and 1 stop bit
 
 ## Headers and Devices Adressing
-The bambu bus is using 2 packet formats,
-The long header packet, which has data indication the master and slave between multiple avaible devices
+The bambu bus is using 2 packet formats,<br>
+The long header packet, which has data indication the master and slave between multiple avaible devices<br>
 And The short header packet, which communicate between 1 preset master and slave
 
-these packets are usually comprised of a start byte _3D_, a packet lenght indicator, and an 8 bit CRC for verifying the header integrity.
+these packets are usually comprised of a start byte _3D_, a packet lenght indicator, and an 8 bit CRC for verifying the header integrity.<br>
 
 ### Long form header
 
@@ -26,7 +26,7 @@ these packets are usually comprised of a start byte _3D_, a packet lenght indica
 | 11~(L-3)    | Packet content                   | L-13           |
 | (L-2)~(L-1) | CRC16 for all previous bytes [2] | 2              |
 
-[1] CRC8 generation polynomial: 0x39, initial value 0x66, no XOR and reverse.
+[1] CRC8 generation polynomial: 0x39, initial value 0x66, no XOR and reverse.  
 [2] CRC16 generation polynomial:0x1021, initial value 0x913D, no XOR and reverse, but low byte first in the array.
 
 ### adressing relations
@@ -56,8 +56,8 @@ these packets are usually comprised of a start byte _3D_, a packet lenght indica
 | 5~(L-3)     | Packet content                       | L-7            |
 | (L-2)~(L-1) | CRC16 for all previous bytes [2]     | 2              |
 
-[1] CRC8 generation polynomial: 0x39, initial value 0x66, no XOR and reverse.
-[2] CRC16 generation polynomial: 0x1021, initial value 0x913D, no XOR and reverse, but low byte first in the array.
+[1] CRC8 generation polynomial: 0x39, initial value 0x66, no XOR and reverse.<br>
+[2] CRC16 generation polynomial: 0x1021, initial value 0x913D, no XOR and reverse, but low byte first in the array.<br>
 
 The data type of the short frame header (collected in AMS lite, so the content listed is intended for AMS lite): 
 | Value | The (possible) meaning                        |
@@ -69,7 +69,7 @@ The data type of the short frame header (collected in AMS lite, so the content l
 | 0x07  | Read the NFC information                      |
 | 0x20  | Printer heartbeat packet                      |
 
-
+<br>
 ## Research team:
 - 4061N
 - leonllrmc
