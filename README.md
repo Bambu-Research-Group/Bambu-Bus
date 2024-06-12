@@ -70,6 +70,11 @@ The data type of the short frame header (collected in AMS lite, so the content l
 | 0x20  | Printer heartbeat packet                      |
 
 
+# Tooling
+## Parsers
+- Protoparser.py -> packet parser, works best for the X1 serie packets
+## Simulators
+- AMCU -> AMS emulator written by researcher 4061N
 
 ## Research team:
 - 4061N

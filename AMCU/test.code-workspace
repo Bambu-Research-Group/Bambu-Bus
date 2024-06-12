@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+    "settings": {
+        "files.associations": {
+            "array": "cpp",
+            "string_view": "cpp",
+            "initializer_list": "cpp",
+            "uart.h": "c",
+            "*.tcc": "cpp",
+            "deque": "cpp",
+            "string": "cpp",
+            "unordered_map": "cpp",
+            "vector": "cpp",
+            "memory": "cpp",
+            "random": "cpp"
+        }
+    }
+}
