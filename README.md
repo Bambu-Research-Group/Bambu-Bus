@@ -2,7 +2,7 @@
 Tools &amp; Documentation relating to the Bambu Bus
 
 ## Introduction
-The bambu-bus is a proprietary protocol, based on UART trough a RS485 bus<br>
+The bambu-bus is a proprietary protocol, based on UART through a RS485 bus<br>
 The UART is clocked at 1228800bps with 1 even parity bit and 1 stop bit
 
 ## Headers and Devices Adressing
