@@ -79,4 +79,3 @@ The data type of the short frame header (collected in AMS lite, so the content l
 ## Research team:
 - 4061N
 - leonllrmc
-- greensh/tdgunes
