@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+### Licensed under Apache2
+### By jwise
+
 from sys import argv
 from crccheck.crc import Crc
 
